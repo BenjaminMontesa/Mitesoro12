@@ -8,6 +8,7 @@ export default defineConfig({
         main: resolve(__dirname, 'index.html'),
         about: resolve(__dirname, 'pages/About.html'),
         store: resolve(__dirname, 'pages/ArtStores.html'),
+        branch: resolve(__dirname, 'index2.html'),
       },
     },
   },
