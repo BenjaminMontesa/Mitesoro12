@@ -8,7 +8,7 @@ export default defineConfig({
         main: resolve(__dirname, 'index.html'),
         about: resolve(__dirname, 'pages/About.html'),
         store: resolve(__dirname, 'pages/ArtStores.html'),
-        cart: resolve(__dirname, 'pages/cart.html'),
+        cart: resolve(__dirname, 'pages/Cart.html'),
       },
     },
   },

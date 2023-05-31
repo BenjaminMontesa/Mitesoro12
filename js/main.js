@@ -99,7 +99,7 @@ function changeQuantity(event) {
 function updateCartPrice() {
   var total = 0
   for (var i = 0; i < productRow.length; i += 2) {
-    cartRow = productRow[i]
+    var cartRow = productRow[i]
   var priceElement = cartRow.getElementsByClassName('cart-price')[0]
   var quantityElement = cartRow.getElementsByClassName('product-quantity')[0]
   var price = parseFloat(priceElement.innerText.replace('$', ''))
