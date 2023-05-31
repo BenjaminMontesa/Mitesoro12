@@ -1,4 +1,3 @@
-
 const cart = document.querySelector('#cart');
 const cartModalOverlay = document.querySelector('.cart-modal-overlay');
 
@@ -26,7 +25,7 @@ const addToCart = document.getElementsByClassName('add-to-cart');
 const productRow = document.getElementsByClassName('product-row');
 
 for (var i = 0; i < addToCart.length; i++) {
-  button = addToCart[i];
+  var button = addToCart[i];
   button.addEventListener('click', addToCartClicked)
 }
 
