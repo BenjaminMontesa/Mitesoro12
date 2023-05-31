@@ -6,9 +6,8 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        about: resolve(__dirname, 'nested/About.html'),
-        cart: resolve(__dirname, 'nested/ADD TO CART.html'),
-        store: resolve(__dirname, 'nested/ArtStores.html'),
+        about: resolve(__dirname, 'pages/About.html'),
+        store: resolve(__dirname, 'pages/ArtStores.html'),
       },
     },
   },
